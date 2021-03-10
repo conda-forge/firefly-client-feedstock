@@ -5,9 +5,11 @@ Home: http://github.com/Caltech-IPAC/firefly_client
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/firefly-client-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python API for Firefly, IPAC's Advanced Astronomy Web UI Framework
+
+Development: https://github.com/Caltech-IPAC/firefly_client
 
 Firefly client is a python client to be used against the Firefly web
 UI framework and visualization system for astronomical archives.
@@ -110,9 +112,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
