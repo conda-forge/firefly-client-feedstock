@@ -23,10 +23,9 @@ requirements:
 
   run:
     - python >=3.6
-    - future
     - requests
     - setuptools
-    - ws4py
+    - websocket-client
 
 test:
   imports:
