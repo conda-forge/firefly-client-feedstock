@@ -1,5 +1,5 @@
 {% set name = "firefly-client" %}
-{% set version = "2.9.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: 0fcb1bb59d72f0449786481336f773c7eb3069683c794deab9eb83e8179845dd
+  sha256: 3024b413898240e34e0703a288cb295f0d1ada2a9377af66a38339d39de93916
 
 build:
   number: 0
