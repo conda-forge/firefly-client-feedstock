@@ -150,6 +150,7 @@ Feedstock Maintainers
 =====================
 
 * [@brianv0](https://github.com/brianv0/)
+* [@jaladh-singhal](https://github.com/jaladh-singhal/)
 * [@loitly](https://github.com/loitly/)
 * [@robyww](https://github.com/robyww/)
 
