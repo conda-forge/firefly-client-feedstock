@@ -11,23 +11,25 @@ source:
   sha256: 3f1e0e50b504ba35fd46ecb454f6dccd33bc087c3f1e76d33a4a1c66d1fbed9c
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
   noarch: python
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools
 
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - requests
     - setuptools
     - websocket-client
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - firefly_client
 
